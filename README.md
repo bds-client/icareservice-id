@@ -1,4 +1,4 @@
-# iCare Service — versi PHP & MySQL
+# iCare Service — PHP & MySQL
 
 Butuh: hosting dengan PHP 8.0+ dan MySQL/MariaDB (cPanel, Hostinger, Niagahoster, dll.), server Apache (untuk file .htaccess).
 
@@ -20,8 +20,3 @@ Atau impor `install.sql` lewat phpMyAdmin, lalu tetap pakai setup.php untuk memb
 
 Bahasa pilihan pengunjung (ID/EN) disimpan di cookie.
 
-## Naikkan ke GitHub sebagai repo sendiri
-1. Buka github.com → New repository → nama `icareservice-id` → Public → Create repository.
-2. Ekstrak ZIP paket ini, lalu di halaman repo baru pilih "uploading an existing file" dan seret seluruh isi folder (termasuk file yang dimulai dengan titik: `.htaccess`, `.gitignore`).
-3. Jangan upload `config.php` — file itu berisi data database hosting Anda. Yang ikut adalah `config.sample.php`.
-4. Setelah itu repo bisa di-clone dan di-push seperti biasa; `.gitignore` sudah menjaga `config.php` dan isi `uploads/` tidak ikut terkirim.
