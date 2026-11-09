@@ -3,7 +3,7 @@
 Butuh: hosting dengan PHP 8.0+ dan MySQL/MariaDB (cPanel, Hostinger, Niagahoster, dll.), server Apache (untuk file .htaccess).
 
 ## Cara pasang
-1. Upload seluruh isi folder ini ke folder utama domain (biasanya `public_html`). Situs harus berada di akar domain, bukan di subfolder.
+1. Upload seluruh isi folder ini ke folder utama domain (biasanya `public_html`). Situs harus berada di folder domain, bukan di subfolder.
 2. Buat database MySQL beserta user-nya di panel hosting.
 3. Salin `config.sample.php` menjadi `config.php`, lalu isi nama database, user, dan password.
 4. Buka `https://domain-anda/setup.php` — tabel dibuat otomatis, lalu buat akun admin pertama.
